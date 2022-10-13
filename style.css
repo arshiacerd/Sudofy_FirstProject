@@ -1,0 +1,108 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+.main {
+  background-image: url("./Assets/3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.blur {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(1px);
+  height: 100vh;
+  width: 100%;
+}
+.top-text {
+  margin-top: 10rem;
+  
+
+}
+.btn:focus{
+    outline: none;
+  box-shadow: none;
+    
+}
+ul> li> a{
+text-transform: uppercase;
+}
+.bg-transparent{
+    padding: 0%;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#cartIcon{
+    color: #ed563b;
+    font-size: 30px;
+    cursor: pointer;
+    line-height: 1.6;
+}
+ul li .nav-link {
+    color: #ed563b !important;
+    font-weight: 400;
+    font-size: 18px;
+}
+.dark{
+    background-color: #000 !important;
+}
+
+#OrderNow {
+  border: none;
+  font-size: 15px;
+  padding: 12px 20px;
+  background-color: #ed563b;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+a{
+    text-decoration: none;
+    color:#ebe9e4;
+}
+a:hover{
+    color: #ebe9e4;
+}
+.white{
+    color: white;
+}
+#dishes{
+    text-transform:uppercase;
+    color: #ed563b;
+    font-weight: bold;
+}
+.card-body-custom{
+    text-align: center;
+}
+.orderNowbtn{
+    border: 2px solid #ed563b;
+    background-color: transparent;
+    color: #ed563b;
+}
+#join-resturant{
+    height:20rem;
+    background-color: #1e1e1e;
+    
+
+}
+.uppercaseText{
+    text-transform: uppercase;
+}
+.orange{
+    color: #ed563b;
+}
+.footer{
+    background-color: #ebe9e4;
+    text-align: center;
+    padding: 1.5rem;
+}
+ul{
+    list-style: none;
+}
