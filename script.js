@@ -121,7 +121,7 @@ var TA = document.getElementById("totalAmount");
 
 const cart = () => {
   var check = localStorage.getItem("amount");
-  console.log("am", localStorage.length);
+  console.log("a.m", localStorage.length);
 
   for (var k = 0; k <= localStorage.length - 1; k++) {
     var data = JSON.parse(localStorage.getItem(`arr[${k}]`));
